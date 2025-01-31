@@ -2,6 +2,30 @@
 
 C lets you open a file, write in it, read from it, append to it and finally close the file.
 
+## What you would be able to do after this lesson?
+1. Openning a file with different accesses
+2. Closing a fille
+3. Writing in a file
+4. Formatted write in a file
+
+5. Reading from a file character by character (fgetc)
+6. Reading from a file chunk by chnuk using a buffer (fgets)
+7. Reading from a file formatted (fscanf)
+8. Reading an arbitrary data type from a file. e.g. reading `struct Person` (fread)
+
+## Review Questions
+- What library you should include for working with files?
+- What function is used to open a file in c?
+- What function is used to close a file in c?
+- How to know if a file is opened successfully after fopen?
+- What are arguments of fopen?
+- What are arguments of fgetc?
+- What are arguments of fgets?
+- What are arguments of fscanf?
+- What are arguments of fread?
+
+
+
 ## Required library
 
 To work with files in c you need to include `stdio.h` in your program
@@ -16,7 +40,7 @@ Your user space program can't access files. And must grant permission from the o
 
 
 ## Reading from a file
-There are three functions to read from file:
+There are 4 functions to read from file:
 1. `fgetc(fptr)` : to read a single character every time
     input: file pointer
     returns: next single character in the file
@@ -30,7 +54,7 @@ There are three functions to read from file:
     returns: the number of fields that it successfully converted and assigned.
 4. `fread(buffer_ptr, size, nmemb, file_ptr)
     inputs: buffer, buffer member size, number of buffer members, file pointer
-    returns: 1 if data is read successfully, 0 if no data is read successfully.
+    returns: 0 if no data is read successfully.
 
 ### Example for fgetc(fptr)
 ```C
