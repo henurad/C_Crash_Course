@@ -10,7 +10,6 @@ Welcome to the **C Crash Course** repository! This project is designed to help b
 - [Usage](#usage)
 - [Course Structure](#course-structure)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -58,11 +57,6 @@ Each module contains examples and exercises to reinforce learning.
 ## Contributing
 
 Contributions are welcome! If you have suggestions for improvements or additional content, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ---
 
 Happy coding!
