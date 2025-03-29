@@ -57,6 +57,7 @@ Each module contains examples and exercises to reinforce learning.
 ## Contributing
 
 Contributions are welcome! If you have suggestions for improvements or additional content, please open an issue or submit a pull request.
+
 ---
 
 Happy coding!
