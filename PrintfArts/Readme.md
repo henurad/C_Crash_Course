@@ -3,7 +3,7 @@ Some code snippets and examples that help you professionaly use printf command.
 ## 1. [Linux `conio.h`](linux_conio.h/conio.h)
 There is no direct access to `conio.h` in linux. but the `conio.h` file can be copied in the linux c program and then you can easily access getch() and getche() functions.
 
-## 2. [Clearing the screen](clear_the_screen.c)
+## 2. [Clearing the screen](clear_screen.c)
 
 ## 3. [Formatted error](formatted_error_function.c)
 
