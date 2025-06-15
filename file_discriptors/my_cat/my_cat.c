@@ -18,14 +18,19 @@ int main(int argc, char **argv){
 	}
 	int n = 0;
 	char buff[BUFSIZE];
-	while((n = read(fd, buff, BUFSIZE)) != 0){
+	while((n = read(fd, buff, BUFSIZE)) > 0){
 		if(n != write(1, buff, n)){
 			fprintf(stderr, "error while showing the text\n");
 			close(fd);
 			exit(1);
 		}
 	} 
+
 	close(fd);
+	if (n == -1){
+		fprintf(stderr, "Error while reading the file\n");
+		return 1;
+	}
 
 	return 0;
 }
