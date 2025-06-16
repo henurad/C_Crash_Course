@@ -1,4 +1,6 @@
 #include <stdlib.h>
+#include <fcntl.h> // for open()
+#include <unistd.h> // for read(), write(), lseek()
 
 #ifdef NULL
 #undef NULL
@@ -54,8 +56,6 @@ int _flushbuf(int, FILE *);
 #define putchar(x) putc((x), stdout)
 
 #define PERMS 0666
-
-#include <fcntl.h>
 
 FILE *fopen(char *name, char *mode){
 	FILE *fp;
