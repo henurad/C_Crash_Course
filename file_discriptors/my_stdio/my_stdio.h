@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <fcntl.h> // for open()
+#include <fcntl.h> // for open(), creat()
 #include <unistd.h> // for read(), write(), lseek()
 
 #ifdef NULL
